@@ -3,4 +3,4 @@ project(2015)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(2015 main.cpp)
+add_executable(2015 d01/part1.cpp)
