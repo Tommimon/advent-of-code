@@ -5,7 +5,7 @@
 int main() {
     std::ifstream ifs("input");
     std::string input((std::istreambuf_iterator<char>(ifs)), (std::istreambuf_iterator<char>()));
-    std::cout << input << std::endl;
+    //std::cout << input << std::endl;
     int floor = 0;
     int firstBasement = 0;
     for (int i = 0; i < input.size(); ++i) {
